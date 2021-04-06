@@ -179,19 +179,28 @@ body {
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
     margin-top: auto;
     width: 100vw;
-    height: 8%;
+    height: 9%;
 }
 
 .nav-footer {
     display: flex;
-    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 14px;
     height: 100%;
 }
 
 .Pays {
     color: #74797e;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
 }
 
 hr {
@@ -199,9 +208,12 @@ hr {
 }
 
 .left,
-.right,
-.carbon-neutral {
+.right {
+    font-family: Arial, sans-serif;
     display: flex;
+    justify-content: space-between;
+    min-width: 30%;
+    flex-wrap: wrap;
 }
 
 .left a,
@@ -211,12 +223,27 @@ hr {
     color: #74797e;
 }
 
-.carbon-neutral img {
-    float: left;
-    width: 1em;
+.left a:hover,
+.right a:hover,
+.carbon-neutral a:hover {
+    text-decoration: underline;
+}
+
+.lien-et-feuille {
+    display: flex;
+}
+
+.lien-et-feuille img {
+    padding-right: 5px;
+    width: 1.2em;
     height: 1em;;
 }
 
 .param {
     color: #74797e;
+    font-family: Arial, sans-serif;
+}
+
+.param:hover {
+    text-decoration: underline;
 }
