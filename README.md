@@ -1,4 +1,4 @@
-# Reproduction de la page d'acceuil de Google
+# Reproduction de la page d'accueil de Google
 
 Ce projet est un exercice d'apprentissage pour le **html** et le **css**.
 
